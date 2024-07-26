@@ -1,18 +1,48 @@
-## Getting Started
+# Stone Paper Scissors Game
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This is a simple console-based Stone Paper Scissors game written in Java. The player competes against the computer in this classic game.
 
-## Folder Structure
+## How to Play
 
-The workspace contains two folders by default, where:
+1. Clone the repository to your local machine.
+2. Compile and run the `App.java` file.
+3. Follow the on-screen instructions to play the game.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Game Rules
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Stone (`s`) beats Scissors (`x`).
+- Paper (`p`) beats Stone (`s`).
+- Scissors (`x`) beats Paper (`p`).
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Usage
 
-## Dependency Management
+1. **Run the Game:**
+   - Open your terminal or command prompt.
+   - Navigate to the directory where the `App.java` file is located.
+   - Compile the Java file using:
+     ```bash
+     javac App.java
+     ```
+   - Run the compiled Java file using:
+     ```bash
+     java App
+     ```
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+2. **Gameplay:**
+   - The game will prompt you to enter your move.
+   - Enter 's' for stone, 'p' for paper, or 'x' for scissors.
+   - The computer will randomly select its move.
+   - The result of the round will be displayed.
+   - You will be asked if you want to play again. Enter 'Y' or 'N'.
+
+## Example
+
+```text
+STONE PAPER SCISSOR
+Enter 's' for stone, 'p' for paper & 'x' for scissor!
+Enter your move: 
+s
+Now, computer's turn
+Computer played: p
+Computer WINS!
+Do you want to play again? (Y/N)
